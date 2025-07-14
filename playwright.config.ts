@@ -6,6 +6,7 @@ export default defineConfig({
     baseURL: 'http://localhost:3000',
     headless: true,
   },
+  outputDir: 'e2e/test-results',
   projects: [
     {
       name: 'chromium',
