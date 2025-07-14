@@ -18,6 +18,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Environment Variables
+
+Create a `.env.local` file based on `.env.local.example` and set `NEXT_PUBLIC_BASE_URL` to point to your API. The home page demonstrates fetching `/posts/1` from this URL and updates a counter stored with Zustand.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
